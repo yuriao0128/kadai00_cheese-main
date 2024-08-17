@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>チーズアカデミー</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+<!-- この中に記述していく -->
+<!-- ここから下にコードを書く -->
+
+    <!-- 作業手順
+    　　１. header[start] などの箱をまず作る
+    　　２. 視覚で分かるように箱ごとに色をつけておく　
+    　　３. 必要となるHTMLを全て入力
+      　４. 上から順にCSS を入力
+        ５．不明点はしんまろさん式 「何で何をどうしたい」検索 -->
+
+    <!-- 不明点
+    　　１. form / access テーブル使用で良いのか
+      　２. 列・行に揺らぎあり（access,selectbox,詳細など）
+      　３. 全体の作業手順（作業途中で同じクラスで利用できるものを発見 -->
+
+<body>
+    <!-- Header[start]-->
+    <header id="header">
+      <img src="img/header_logo.png" class="img00">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#course">COURSE</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </header>
+    <!-- Header[end]-->
+    <!-- Mainvisual[start]-->
+    <div class="mainvisual">
+      <h1>セカイを変えるチーズを作ろう</h1>
+      <p>チーズ職人要請学校「チーズアカデミーTOKYO」</p>
+    </div>
+    <!-- Mainvisual[start]-->
+    <!-- About section[start]-->
+    <section id="about">
+      <h1>ABOUT</h1>
+      <p class="about00">チーズアカデミーについて</p>
+      <p class="about02">チーズアカデミーは、チーズ職人要請学校です。</p>
+      <p class="about01">チーズの素晴らしさを、自給自足を通じて、できるだけ多くの人に知っていただきたい。
+        <br>そして、食卓にはいつもチーズがあった、あの頃の当たり前をこの手で取り戻したい。
+      </p>
+      <p class="about03">そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。</p>
+      <p class="about01">卒業後、チーズ自給自足のバックアップはもちろんのこと、
+        <br>チーズ職人への就職・転職もサポートします。
+      </p>
+      <div class="slide-container">
+        <div class="slide-wrapper">
+          <img src="/img/about_04.jpg" class="img01">
+          <img src="/img/about_03.jpg" class="img01">
+          <img src="/img/about_02.jpg" class="img01">
+          <img src="/img/about_01.jpg" class="img01">
+        </div>
+      </div>
+    </section>
+    <!-- About section[end]-->
+    <!-- Course section[start]-->
+    <section id="course">
+      <h1>COURSE</h1>
+      <p>未経験からでもスタートができるよう、カリキュラムは多くの専門家や
+        <br>現役チーズ職人のアドバイスのもと、作られました。
+      </p>
+
+      <div class="flex">
+        <img src="/img/course_01.jpg" class="img">
+        <div class="right">
+          <h2>本格的な農園を使った実地研修</h1>
+            <p>チーズアカデミーでは、本格的な農園を使った実地研修を
+              行うことができます。プロとして活躍するチーズ職人も
+              使用するような、広大で環境も整った農園を余すところ
+              なく使い、卒業時には本格的なチーズを自分の力で作れる
+              実践力の養成を目指します。</p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <div class="left">
+          <h2>必要な知識もしっかりと取得</h1>
+            <p>チーズ作りには、しっかりとした食に関する知識が
+              欠かせません。チーズアカデミーでは、一流講師陣による、
+              チーズ作りに必要ないろはを余すところなく学べます。
+              チーズそのものでなく、栄養学全般を学ぶことも
+              可能ですので、チーズ以外への展開も夢ではないでしょう。</p>
+        </div>
+        <img src="/img/course_02.jpg" class="img">
+      </div>
+
+      <div class="flex">
+        <img src="/img/course_03.jpg" class="img">
+        <div class="right">
+          <h2>卒業制作はティスティング審査あり</h1>
+            <p>チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。
+              卒業制作として、チーズ作りを実際に行います。卒業後、
+              一般参加によるティスティング審査があるため、作り手の
+              目線だけでなく、消費者の目線から、卒業制作作品としての
+              チーズを、しっかりと評価いただくことができます。</p>
+        </div>
+      </div>
+    </section>
+    <!-- Course section[end]-->
+  </main>
+  <!-- News section[start]-->
+  <section id="news">
+    <h1>NEWS</h1>
+    <p class="about00">ニュース</p>
+    <div class="news00">
+      <section class="news01">
+        <img src="/img/news_img.jpg">
+        <p class="day">2016/11/18</p>
+        <p>チーズアカデミー卒業生のコスゲさんによる
+          チーズだけをふんだんに使用した話題のピザ屋
+          「Kosuge Pizza」が渋谷でオープンしました！</p>
+      </section>
+      <section class="news01">
+        <img src="/img/news_img.jpg">
+        <p class="day">2016/11/18</p>
+        <p>チーズアカデミー卒業生のコスゲさんによる
+          チーズだけをふんだんに使用した話題のピザ屋
+          「Kosuge Pizza」が渋谷でオープンしました！</p>
+      </section>
+      <section class="news01">
+        <img src="/img/news_img.jpg">
+        <p class="day">2016/11/18</p>
+        <p>チーズアカデミー卒業生のコスゲさんによる
+          チーズだけをふんだんに使用した話題のピザ屋
+          「Kosuge Pizza」が渋谷でオープンしました！</p>
+      </section>
+    </div>
+    <input type="button" value="More" class="btn">
+  </section>
+  <!-- News section[end]-->
+  <!-- Access section[start]-->
+  <section id="access">
+    <h1>Access</h1>
+    <p class="about00">会社情報</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4123.848290023504!2d139.71165392710367!3d35.66750326059556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0012f10e49%3A0xd25b5586f6b49e2b!2z6Z2S5pyL44OT44Or!5e0!3m2!1sja!2sjp!4v1721881420515!5m2!1sja!2sjp"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="access00">
+
+      <!-- 【要確認】テーブルで作成  -->
+      <table>
+        <tr><!-- 行1-->
+          <td>学校名</td>
+          <td>チーズアカデミーTOKYO</td>
+        </tr>
+
+        <tr><!-- 行2 -->
+          <td>事務所所在地</td>
+          <td>〒107-0061東京都港区北青山3-5-6 青朋ビル2F</td>
+        </tr>
+
+        <tr><!-- 行3 -->
+          <td>TEL</td>
+          <td>03-5413-5045</td>
+        </tr>
+
+        <tr><!-- 行4 -->
+          <td>FAX</td>
+          <td>03-5413-5046</td>
+        </tr>
+
+        <tr><!-- 行4 -->
+          <td>MAIL</td>
+          <td>dummy@cheeseacademy.tokyo</td>
+        </tr>
+      </table>
+  </section>
+  <!-- Access section[end]-->
+  <!-- CONTACT section[start]-->
+  <section id="contact">
+    <h1>CONTACT</h1>
+    <p class="about00">説明会お申し込み・お問い合わせ</p>
+    <p>ぜひ1度、足を運んでみませんか。説明会は随時開催中。
+      <br>その他、お問い合わせもお気軽にどうぞ。お待ちしております。
+    </p>
+    <p class="contact00">※チーズアカデミーは実際には存在しません。
+      <br>間違っても問い合わせしないようお願いいたします。
+    </p>
+
+    <!-- フォーム内をテーブルで作成-->
+    <form method="CONTACT" action="">
+      <table>
+        <tr>
+          <th><label>名前</label></th>
+          <td><input type="text" class="parts"></td>
+        </tr>
+        <tr>
+          <th><label>カナ</label></th>
+          <td><input type="text" class="parts"></td>
+        </tr>
+        <tr>
+          <th><label>メールアドレス</label></th>
+          <td><input type="text" class="parts"></td>
+        </tr>
+        <tr>
+          <th><label>チーズアカデミーを<br>知ったきっかけ</label></th>
+          <td>
+            <select name="know" id="know" class="parts">
+              <option>選択してください</option>
+              <option>google検索</option>
+              <option>SNS</option>
+              <option>紹介</option>
+              <option>たまたま通りかかった</option>
+              <option>その他</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label>志望動機</label></th>
+          <td>
+            <div class="checkbox"><label for="checkbox">
+                <input type="checkbox" name="needs">
+                起業をしたい
+              </label>
+              <br />
+              <label for="checkbox">
+                <input type="checkbox" name="needs">
+                チーズ系企業に就職・転職したい
+              </label>
+              <br />
+              <label for="checkbox">
+                <input type="checkbox" name="needs">
+                チーズと関わる仕事をしており、仕事に生かしたい
+              </label>
+              <br />
+              <label for="checkbox">
+                <input type="checkbox" name="needs">
+                チーズの教養を身に着けたい
+            </div>
+          </td></label>
+          </td>
+        </tr>
+        <tr>
+          <th><label>詳細</label></th>
+          <td><textarea class="parts"></textarea></td>
+        </tr>
+      </table>
+      <br />
+      <input type="button" value="送信" class="btn">
+  </section>
+  <!-- CONTACT section[end]-->
+  <!-- Main[end]-->
+  <!-- footer[start]-->
+  <footer>
+    <p>copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.</p>
+  </footer>
+  <!-- footer[end]-->
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

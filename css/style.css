@@ -1,0 +1,265 @@
+/* ここから下に記載していく */
+
+/*全体に共通するCSS*/
+body {
+    text-align: center;
+    width: 1200px;
+    font-family: Meiryo UI;
+    line-height: 2.0em;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight:bold;
+    padding-bottom:40px;
+    padding-top: 100px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*ヘッダー*/
+ul {    
+    display: flex;
+    float: right;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 【要確認】仕様書だとナビ上下50px */
+li {
+    margin:30px 25px;
+}
+
+
+
+/*メインビジュアル*/
+/* 【要確認】文字乗せをbackground-imageを使用 */
+.mainvisual {
+    color: white;
+    background-image: url(../img/mainbg.png);
+}
+
+.mainvisual h1 {
+    font-size: 48px;
+    padding-top: 180px;
+    margin-bottom: 30px;
+}
+
+.mainvisual p {
+    padding-bottom: 180px;
+    font-size: 32px;
+}
+
+
+/*アバウト カテゴリー*/
+.about00 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.about02 {
+    padding-bottom: 40px;
+}
+
+.about03 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about h1 {
+    color: #ffd61a;
+}
+
+
+/*【要確認】スライドショーに出来ず*/
+.slide-container {
+    margin-top: 60px;
+}
+
+.slide-wrapper {
+    display: flex;
+  }
+
+.img01 {
+    width: 25%;
+}
+
+
+/*コース カテゴリー*/
+#course h1{
+    color:black;   
+}
+
+#course p{
+    margin-bottom:60px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex .img {
+    width: 50%;
+}
+
+.flex .right {
+    text-align: left;
+    background-color: #fafafa;
+    padding-left: 50px;
+    padding-right: 180px;
+
+}
+
+.flex .left {
+    text-align: left;
+    background-color: #fafafa;  
+    padding-right: 50px;
+    padding-left: 180px;
+}
+
+
+/*ニュース カテゴリー*/
+#news h1{
+    color:#ffd61a;
+}
+
+.news00 {
+        display: flex;
+        display: inline-block;
+        margin: auto;  
+        width: 100%;
+        padding-bottom: 60px;
+}
+
+.newstitle {
+        padding-bottom: 60px;
+}
+
+.day {
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.news01 {
+    width: 300px;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/*ホバー : サンプルサイトから利用 */
+.news01 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .news01:hover, .news01:focus, .news01:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+  .btn {
+    background-color: #ffd61a;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    box-shadow: 0 5px 0 #B8860B;
+    border-radius: 6px;
+    transition: .3s;
+    margin-bottom: 60px;
+  }
+
+  .btn:hover {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #B8860B;
+  }
+
+
+/*アクセス カテゴリー*/
+#access {
+    background-color: #fafafa;
+}
+
+table {
+        display: inline-block;
+        margin: auto;
+        text-align: left;
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+
+table td {
+    padding:10px;
+}
+
+table tr {
+    padding:30px;
+}
+
+
+/*コンタクト カテゴリー*/
+.contact00 {
+    padding-top:30px;
+   padding-bottom:70px;
+}
+
+form {
+    border-color: #bfbfbf;
+}
+
+form label {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form .parts {
+    width:350px;
+}
+
+form textarea {
+    height: 50px;
+}
+
+form td {
+    border-bottom: 3px solid #bfbfbf;
+    border-top: 3px solid #bfbfbf;
+    border-left: 3px solid #bfbfbf;
+}
+
+form th {
+    border-bottom: 3px solid #bfbfbf;
+    border-top: 3px solid #bfbfbf;
+}
+
+footer {
+    background-color: #707070;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 140px;
+}
